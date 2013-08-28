@@ -5,3 +5,11 @@ exports.post = function(request, response) {
 
     response.send(200, "Hello World");
 };
+
+exports.get = function(request, response) {
+    // Use "request.service" to access features of your mobile service, e.g.:
+    //   var tables = request.service.tables;
+    //   var push = request.service.push;
+
+    response.send(200, "Hello World");
+};
