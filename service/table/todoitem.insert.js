@@ -1,5 +1,5 @@
 var validator = require('../shared/validator.js');
-var random = require('random-to');
+var random = require('../shared/node_modules/random-to');
 	
 function insert(item, user, request) {
     //console.log(item);
