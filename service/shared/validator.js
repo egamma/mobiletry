@@ -1,1 +1,1 @@
-exports.validate = function() { return "--validated"; }
+exports.validate = function() { return " (validated)"; }
