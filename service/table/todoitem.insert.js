@@ -3,6 +3,7 @@ var random = require('../shared/node_modules/random-to');  // need to add an abs
 	
 function insert(item, user, request) {
     //console.log(item);
-    item.text =  item.text + date.now() + "by " + random.from0upto(100);
+    item.text =  item.text + " " + date.now() + "by " + random.from0upto(100);
+	item.created = new Date();
     request.execute();
 }

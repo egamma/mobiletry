@@ -1,3 +1,3 @@
 exports.now = function() { 
-	return new Date().toString('yyyy-MM-dd'); 
+	return new Date().toDateString(); 
 }
