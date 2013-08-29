@@ -5,7 +5,7 @@ var random = require('../shared/node_modules/random-to');  // need to add an abs
 function insert(item, user, request) {
     //console.log(item);
 	
-    item.text =  item.text + " (" + date.now() + ")" + "priority: " + random.from0upto(3);
+    item.text =  item.text + " (" + date.now() + ")" + " P" + random.from0upto(3);
 	item.created = new Date();
 	request.execute({ success: insertAuditEntry });
 
