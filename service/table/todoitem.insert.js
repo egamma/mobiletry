@@ -10,6 +10,8 @@ function insert(item, user, request) {
 	request.execute({ success: insertAuditEntry });
 
     function insertAuditEntry() {
-		logger.insertLogEntry(request, tables.getTable('Log'), 'inserted', item.id, user);
+		var log = tables.getTable('Log');
+		console.log("log", log);
+		logger.insertLogEntry(request, log, 'inserted', item.id, user);
     }
 }
