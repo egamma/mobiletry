@@ -1,3 +1,23 @@
+/*global tables*/
+
 function extractor() {
-    console.warn("You are running an empty scheduled job. Update the script for job 'extractor' or disable the job.");
+	var warehouse = tables.getTable('Warehouse');
+	var todoItemTable = tables.getTable('TodoItem');
+	todoItemTable.where({
+		complete: false
+	}).read({
+		success: handleResult
+	});
+
+	function handleResult(items) {
+		var warehouse = tables.getTable('Warehouse');
+		var entry = {
+			timestamp: new Date(),
+			openCount: items.length
+		};
+		warehouse.insert(entry, {
+			success: function() {
+			}
+		});
+	}
 }
