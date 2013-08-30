@@ -4,11 +4,10 @@ exports.insertLogEntry = function(request, log, type, id, user) {
 		record: type,
 		recordId: id,
 		timestamp: new Date(),
-		user: user
+		user: JSON.stringify(user)
 	};
 	log.insert(audit, {
 		success: function() {
-			// Write to the response now that all data operations are complete
 			request.respond();
 		}
 	});
