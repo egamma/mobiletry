@@ -1,3 +1,4 @@
+// service https://eg-mobile-try.azure-mobile.net/api/todo
 
 exports.get = function(request, response) {
 	var tables = request.service.tables;
