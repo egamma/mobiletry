@@ -7,6 +7,6 @@ function del(id, user, request) {
 	});
 
 	function insertAuditEntry() {
-		logger.insertLogEntry(request, tables.getTable('Log'), 'inserted', id, user);
+		logger.insertLogEntry(request, tables.getTable('Log'), 'deleted', id, user);
 	}
 }
