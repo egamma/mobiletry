@@ -1,7 +1,6 @@
 /*global tables*/
 
 function extractor() {
-	var warehouse = tables.getTable('Warehouse');
 	var todoItemTable = tables.getTable('TodoItem');
 	todoItemTable.where({
 		complete: false
