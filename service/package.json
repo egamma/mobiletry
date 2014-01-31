@@ -1,0 +1,15 @@
+{
+  "name": "eg-to-do6",
+  "version": "1.0.0",
+  "description": "eg-to-do6 - hosted on Windows Azure Mobile Services",
+  "main": "server.js",
+  "engines": {
+    "node": ">= 0.8.19"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "unknown",
+  "licenses": [],
+  "keywords":[]
+}
