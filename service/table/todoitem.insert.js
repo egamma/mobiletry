@@ -3,7 +3,7 @@ var random = require('../shared/node_modules/random-to');  // need to add an abs
 var logger = require('../shared/logger');
 
 function insert(item, user, request) {
-    //console.log(item);
+    console.log(item);
     //tables.getTables('log');
     item.text =  item.text + " P" + random.from0upto(3);
 	item.created = new Date();
