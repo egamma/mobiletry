@@ -1,0 +1,13 @@
+{
+  "name": "eg-to-do6",
+  "version": "1.0.0",
+  "description": "Package.json file used to descript the dev dependencies",
+  "main": "server.js",
+  "engines": {
+    "node": ">= 0.8.19"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsd": "~0.5.5"
+  }
+}
