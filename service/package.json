@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "eg-monaco-test",
   "version": "1.0.0",
   "description": "eg-monaco-test - hosted on Windows Azure Mobile Services",
-=======
-  "name": "eg-to-do6",
-  "version": "1.0.0",
-  "description": "eg-to-do6 - hosted on Windows Azure Mobile Services",
->>>>>>> 9886c884f7f2451b3f8cf8c3b81e9a66e0c8d972
   "main": "server.js",
   "engines": {
     "node": ">= 0.8.19"
