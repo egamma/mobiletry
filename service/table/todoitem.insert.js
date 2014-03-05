@@ -5,7 +5,7 @@ var logger = require('../shared/logger');
 function insert(item, user, request) {
     //console.log(item);
     //tables.getTables('log');
-    item.text =  item.text + " P" + random.from0upto(3);
+    item.text =  item.text + " PX" + random.from0upto(3);
 	item.created = new Date();
 	request.execute({ success: insertAuditEntry });
 
