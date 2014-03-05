@@ -1,6 +1,6 @@
 # Tables
 
-The 'table' folder in your repository contains:
+The 'table' folder in your repository contains: 
 
 - table scripts that are invoked when requests are made to your backend to read or write data 
 - metadata files that determine the permissions that should be applied to operations against the tables.
