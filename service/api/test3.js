@@ -9,3 +9,7 @@ exports.post = function(request, response) {
 exports.get = function(request, response) {
     response.send(statusCodes.OK, { message : 'Hello World!' });
 };
+
+exports.put = function(request, response) {
+    response.send(statusCodes.OK, { message : 'Hello World!' });
+};
