@@ -1,7 +1,7 @@
 {
-  "name": "joaotrieszumo",
+  "name": "eg-monaco-test",
   "version": "1.0.0",
-  "description": "joaotrieszumo - hosted on Windows Azure Mobile Services",
+  "description": "eg-monaco-test - hosted on Windows Azure Mobile Services",
   "main": "server.js",
   "engines": {
     "node": ">= 0.8.19"
